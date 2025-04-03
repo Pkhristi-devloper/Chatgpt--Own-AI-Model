@@ -28,7 +28,7 @@ This project is an **AI Assistant** built using the **Gemini 2.0** model. It can
 
 2. Navigate to the project directory:
 ```bash
-cd AI-Assistant
+cd Chatgpt--Own-AI-Model
 ```
 
 3. Install dependencies:
