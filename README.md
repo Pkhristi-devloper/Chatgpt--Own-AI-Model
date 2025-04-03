@@ -23,7 +23,7 @@ This project is an **AI Assistant** built using the **Gemini 2.0** model. It can
 ## ⚙️ Setup Instructions
 1. Clone the repository:
 ```bash
- git clone https://github.com/your-username/AI-Assistant.git
+ git clone https://github.com/Pkhristi-devloper/Chatgpt--Own-AI-Model.git
 ```
 
 2. Navigate to the project directory:
