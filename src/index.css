@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root.dark {
+    color: #ffffff;
+    background-color: #222121;
+}
+
+:root.light {
+    color: rgb(0, 0, 0);
+    background-color: #cfc7c7;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.loader{
+    animation: load 1s linear infinite;
+    -webkit-animation: load 0.5s linear infinite;
+}
+/* tailwind.config.css or custom CSS */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+
+@keyframes load{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
